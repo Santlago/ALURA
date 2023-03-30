@@ -71,3 +71,8 @@ a variavel declarado dentro de uma chave morre quando a chave fecha
 
 
 ---------------------------Java Orientado ao Objeto-------------------------------------------
+dominio: o que é conveniente considerarmos para resolver nosso problema
+objeto = instancia
+os atributos tem como default 0 a nao ser que vc mude
+metodo = maneira de faze algo
+void = nao devolve nada como resposta
