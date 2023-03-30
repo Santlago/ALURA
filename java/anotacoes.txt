@@ -1,0 +1,73 @@
+---------------------------------Programando Java---------------------------------------------
+
+JRE: ambiente de execução
+JDK: ferramentas de desenvolvimento junto com o ambiente de execução
+JDK = JRE + ferramentas de desenvolvimento
+
+JVM(Java Virtual Machine): responsável por executar o bytecode
+
+JRE = JVM + bibliotecas (não tem como baixar o JVM sozinho)
+
+Todo código java precisa estar dentro de uma classe
+
+Bytecode tem extensão .class
+
+Executando java no cmd: 
+	acessar a pasta com o arquivo
+	javac "nome do arquivo".java
+	java "nome do arquivo sem extensão"
+	pronto
+
+A entrada de uma aplicação é sempre a função (ou método) main
+
+Eclipse é uma IDE que tem várias outras ferramentas para auxiliar
+
+CamelCase: no java tem-se o costume de nomear as classes com letra maiúscula (Ex: TesteVariaveis)
+
+int: somente para inteiros
+double: tanto para inteiros quanto para pontos flutuantes
+
+O java é muito rígido e metódico, por exemplo se declararmos int n = 0.0 vai dar errado
+Por exemplo: int outraDivisao = 5 / 2; vai rodar mas vai dar 2, ele simplesmente ignora os decimais
+Por exemplo: double novaTentativa = 5 / 2; vai dar 2.0, primeiro ele faz a conta com inteiros e depois tenta por no double
+Porém, se escrever double outraNovaTentativa = 5.0 / 2 ele finalmente retornará 2.5, pois logo no começo ele tratará a divisão como divisão de números decimais.
+
+Casting: forçar a mudança do type de alguma variável
+
+float: 32bits
+double: 64bits
+byte: ±127
+short: 16bits
+int: 32 bits, até ±2^31-1
+long: até 2^63
+
+não é muito bom usar double para salário
+
+boolean	1 bit
+byte	1 byte
+short	2 bytes
+char	2 bytes
+int	4 bytes
+float	4 bytes
+long	8 bytes
+double	8 bytes
+
+Iniciamos as classes com letra maiúscula e as nossas funções e variáveis com letras minúsculas
+
+Char guarda apenas uma letra e deve ser utilizado aspas simples, na verdade o char nofundo é um número mas no final ele converte
+
+String é mais usado
+
+Atalhos do eclipse (escrever, dar ctrl + space e dar enter dps)
+	main
+	sysout
+
+boolean: true or false
+
+a variavel declarado dentro de uma chave morre quando a chave fecha
+
+(contador = contador + 1) pode ser escrito como (contador += 1;) ou (contador++;)
+
+
+
+---------------------------Java Orientado ao Objeto-------------------------------------------
