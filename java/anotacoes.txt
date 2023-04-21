@@ -74,5 +74,20 @@ a variavel declarado dentro de uma chave morre quando a chave fecha
 dominio: o que é conveniente considerarmos para resolver nosso problema
 objeto = instancia
 os atributos tem como default 0 a nao ser que vc mude
-metodo = maneira de faze algo
+metodo = maneira de fazer algo
 void = nao devolve nada como resposta
+
+encapsular: proteger
+atraves do private
+
+podemos fazer associação de objetos declarando um objeto como atributo de outro
+
+para proteger um atributo o declaramos como private
+um atributo privado nao pode ser nem modificado e nem lido por classes a nao ser ela mesma
+você não pode mexer nesses dados diretamente
+
+quando voce cria um construtor voce nao pode mais criar um objeto sem declarar os atributos em questao
+a nao ser que vc declar outro connstrutor para a mesma classe sem atributos requeridos
+
+static: atributo da classe conta, e não do objeto da classe conta
+serve para quando voce quer que todos os objetos da mesma classe tenham acesso a uma mesma variável

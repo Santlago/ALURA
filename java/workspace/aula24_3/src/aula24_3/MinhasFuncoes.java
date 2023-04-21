@@ -3,7 +3,7 @@ package aula24_3;
 public class MinhasFuncoes {
 	
 	public void triplo(int num) {
-		valor = num * 3;
+		int valor = num * 3;
 	}
 	
 	public double metade(int num) {

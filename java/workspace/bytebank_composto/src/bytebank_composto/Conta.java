@@ -1,10 +1,10 @@
-package bytebank;
+package bytebank_composto;
 
 public class Conta {
-	double saldo;
+	private double saldo;
 	int agencia;
 	int numero;
-	String titular;
+	Cliente titular;
 	
 	//método:
 	public void deposita(double valor) {
@@ -27,5 +27,9 @@ public class Conta {
 			return true;
 		} 
 		return false;
+	}
+	
+	public double getSaldo() {
+		return this.saldo;
 	}
 }
