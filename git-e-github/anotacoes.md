@@ -28,8 +28,13 @@ restore: volta para um commit anterior pela sua hash (cada commit tem sua hash u
 
 
 ```git add "nome do arquivo ou ."``` (adiciona novo arquivo)<br>
-depois basta dar committ e push
+depois basta dar committ e push<br>
 
 branches: ramificacoes da aplicacao<br>
-```git checkout -b "nome da branch``` (adiciona novo branch)<br>
+```git branch "nome da branch``` (adiciona nova branch)<br>
+```git checkout -b "nome da branch``` (adiciona nova branch e entra automaticametne nela)<br>
 ```git switch "nome da branch"``` (entra em outra branch)<br>
+
+```git branch``` (mostra as branches disponiveis e a que esta selecionada)<br>
+```git merge "nome da branch"``` (faz o merge da branch em questao com o main)<br>
+após isso basta dar o push<br>
