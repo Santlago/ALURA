@@ -1,4 +1,4 @@
-md = markdown: é uma linguagem de marcação de texto, assim como html, só que mais simples. 
+<h1>md = markdown: é uma linguagem de marcação de texto, assim como html, só que mais simples.</h1>
 readme.md utilizado geralmente para mostrar informações importantes osbre o projeto, por exemplo: requisitos para roda, detalhes de configuração etc
 
 3 crases: usado para deixar em forma de codigo
