@@ -24,3 +24,9 @@ git log --online (visualizar todos os commits, um em cada linha)
 git log -p (mostra as alterações do commit)
 git log --author="nome do usuario" (pesquisa as informacoes do autor daquele commit)
 git log --since=1.month.ago --until=1.day.ago (pesquisa informacoes por data)
+
+git add "nome do arquivo ou ." (adiciona novo arquivo)
+depois basta dar commir e push
+
+branches: ramificacoes da aplicacao
+git checkout 
