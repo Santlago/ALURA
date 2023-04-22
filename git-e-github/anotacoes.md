@@ -27,8 +27,9 @@ restore: volta para um commit anterior pela sua hash (cada commit tem sua hash u
 ```git log --since=1.month.ago --until=1.day.ago``` (pesquisa informacoes por data)<br>
 
 
-```git add "nome do arquivo ou ."``` (adiciona novo arquivo)
+```git add "nome do arquivo ou ."``` (adiciona novo arquivo)<br>
 depois basta dar committ e push
 
-branches: ramificacoes da aplicacao
-```git checkout -b "nome da branch``` (adiciona novo branch
+branches: ramificacoes da aplicacao<br>
+```git checkout -b "nome da branch``` (adiciona novo branch)<br>
+```git switch "nome da branch"``` (entra em outra branch)<br>
