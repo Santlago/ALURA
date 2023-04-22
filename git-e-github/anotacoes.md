@@ -9,10 +9,15 @@ para dar commit no codigo digitado basta ir em Source Control
 o git é do mesmo criador do linux
 
 ```git clone "url"``` (clona o repositório do link)
+
 ```git log --oneline``` (mostra todos os últimos commits)
+
 ```git pull "url"``` (atualiza o git local com as informações do git origem)
+
 ```git commit "nome do arquivo" -m "mensagem do commit"``` (faz o commit e deixa uma mensagem)
+
 ```git commit "." -m "mensagem do commit"``` (faz o commit de todos os arquivos que foram modificados e deixa uma mensagem)
+
 ```git push origin "divisao desejada"``` (salva as atualizacoes na divisao)
 
 restore: volta para um commit anterior pela sua hash (cada commit tem sua hash unica
