@@ -22,3 +22,16 @@ String mensagem = """
                   """;
 ```
 <br>
+
+Método que permite formatar um texto utilizando diversos placeholders
+```
+format()
+```
+<br>
+
+Por exemplo: 
+```%s``` indica que uma String será inserida no placeholder <br>
+```%d``` indica que um valor inteiro será inserido no placeholder <br>
+```%f``` indica que um valor decimal será inserido no placeholder <br>
+
+Na prática ficaria assim:
