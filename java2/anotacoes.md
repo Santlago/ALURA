@@ -77,3 +77,23 @@ switch (expressão) {
 }
 ```
 <br>
+
+Scanner é utilizado para ler dados no java. Exemplo
+```
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner leitura = new Scanner(System.in);
+
+        System.out.println("Digite o seu filme favorito");
+        String filme = leitura.nextLine();
+        System.out.println(filme);
+        System.out.println("Qual o ano de lacamento? ");
+        int anoDeLancamento = leitura.nextInt();
+        System.out.println(anoDeLancamento);
+    }
+}
+```
+<br>
+
