@@ -97,3 +97,43 @@ public class Main {
 ```
 <br>
 
+Loops for. Exemplo
+```
+public static void main(String[] args) {
+        Scanner leitura = new Scanner(System.in);
+        double mediaAvaliacao = 0;
+        double nota = 0;
+
+        for (int i = 0; i < 3; i++) {
+            System.out.println("Diga a sua avaliação para o filme: ");
+            nota = leitura.nextDouble();
+            mediaAvaliacao += nota;
+        }
+
+        System.out.println("Média de avaliações: " + mediaAvaliacao / 3);
+    }
+```
+<br>
+
+Loops While. Exemplo
+```
+Scanner leitura = new Scanner(System.in);
+
+        double nota = 0;
+        double somaAvaliacao = 0;
+        int div = 0;
+
+        while (nota != -1) {
+
+            System.out.println("Digite a avaliação do filme ou -1 para sair: ");
+            nota = leitura.nextDouble();
+
+            if (nota != -1) {
+
+                somaAvaliacao += nota;
+                div ++;
+            }
+        }
+
+        System.out.println("A média de avaliações é: " + somaAvaliacao / div);
+```
