@@ -7,8 +7,8 @@ public class OutroLoop {
         Scanner leitura = new Scanner(System.in);
 
         double nota = 0;
-        int div = 0;
         double somaAvaliacao = 0;
+        int div = 0;
 
         while (nota != -1) {
 
@@ -18,7 +18,7 @@ public class OutroLoop {
             if (nota != -1) {
 
                 somaAvaliacao += nota;
-                div += 1;
+                div ++;
             }
         }
 
