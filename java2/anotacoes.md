@@ -137,3 +137,4 @@ Scanner leitura = new Scanner(System.in);
 
         System.out.println("A média de avaliações é: " + somaAvaliacao / div);
 ```
+
