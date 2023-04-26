@@ -17,6 +17,12 @@ public class ContaCliente {
     public void operacao() {
         Scanner input = new Scanner(System.in);
 
+        System.out.println("*****************************************");
+        System.out.println("\nNome do cliente: " + this.getNome());
+        System.out.println("Tipo da conta: " + this.getTipo());
+        System.out.println("Saldo atual: " + this.getSaldo());
+        System.out.println("\n*****************************************");
+
         int n = 0;
         while (n != 4) {
 
