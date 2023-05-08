@@ -1,12 +1,14 @@
 import models.Filme;
+import models.Serie;
 
 public class Principal {
     
     public static void main(String[] args) {
         Filme meuFilme = new Filme();
-        meuFilme.nome = "O poderoso chefão";
-        meuFilme.anoDeLancamento = 1970;
-        meuFilme.duracaEmMinutos = 180;
+        meuFilme.setNome("O poderoso chefão");
+        meuFilme.setAnoDeLancamento(1970);
+        meuFilme.setDuracaEmMinutos(180);
+        System.out.println("Duração do filme: " + meuFilme.getDuracaEmMinutos());
 
         meuFilme.exibeFichaTecnica();
         meuFilme.avalia(8);
@@ -14,7 +16,15 @@ public class Principal {
         meuFilme.avalia(10);
 
         System.out.println(meuFilme.getTotalDeAvaliacoes());
-        System.out.println(meuFilme.totalDeAvaliacoes);
         System.out.println(meuFilme.pegaMedia());
+
+        Serie lost = new Serie();
+        lost.setNome(("Lost"));
+        lost.setAnoDeLancamento(2000);
+        lost.exibeFichaTecnica();
+        lost.setTemporadas(10);
+        lost.setEpisodiosPorTemporada(10);
+        lost.setMinutosPorEpisodio(50);
+        System.out.println("Duração para maratonar " + lost.getNome() + ": " + lost.getDuracaEmMinutos());
     }
 }

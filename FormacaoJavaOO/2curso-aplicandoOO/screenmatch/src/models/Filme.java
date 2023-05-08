@@ -1,34 +1,16 @@
 package models;
 
-public class Filme {
+public class Filme extends Titulo {
     
-    // atributos
-    public String nome;
-    public int anoDeLancamento;
-    public boolean incluidoNoPlano;
-    private double somaDasAvaliacoes;
-    private int totalDeAvaliacoes;
-    public int duracaEmMinutos;
+    //atributos
+    private String diretor;
 
-    // metodos
-    public void exibeFichaTecnica() {
-        System.out.println("Nome do filme: " + nome);
-        System.out.println("Ano de lançamento: " + anoDeLancamento);
+    //getters e setters
+    public String getDiretor() {
+        return diretor;
     }
 
-    public void avalia(double nota) {
-        somaDasAvaliacoes += nota;
-        totalDeAvaliacoes++;
+    public void setDiretor(String diretor) {
+        this.diretor = diretor;
     }
-
-    public double pegaMedia() {
-        return somaDasAvaliacoes / totalDeAvaliacoes;
-    }
-
-    // getters e setters
-    public int getTotalDeAvaliacoes() {
-        return totalDeAvaliacoes;
-    }
-
-    
 }
