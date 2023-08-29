@@ -1,1 +1,1 @@
-## Curso consumindo API, gravando arquivos e lidando com erros
+## Curso consumindo API, gravando arquivos e lidando com erro
