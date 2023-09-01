@@ -1,6 +1,8 @@
 package principal;
 
 import java.net.URI;
+import java.net.http.HttpClient;
+import java.net.http.HttpRequest;
 
 public class PrincpalComBusca {
     public static void main(String[] args) {
