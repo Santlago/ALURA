@@ -1,9 +1,12 @@
 package models;
 
+import com.google.gson.annotations.SerializedName;
+
 public class Titulo implements Comparable<Titulo> {
-    
     // atributos
+    @SerializedName("Title")
     private String nome;
+    @SerializedName("Year")
     private int anoDeLancamento;
     private boolean incluidoNoPlano;
     private double somaDasAvaliacoes;
@@ -21,6 +24,11 @@ public class Titulo implements Comparable<Titulo> {
     public int compareTo(Titulo outroTitulo) {
         // TODO Auto-generated method stub
         return this.getNome().compareTo(outroTitulo.getNome());
+    }
+
+    @Override
+    public String toString() {
+        return "[nome=" + nome + ", anoDeLancamento=" + anoDeLancamento + "]";
     }
 
     public void exibeFichaTecnica() {
