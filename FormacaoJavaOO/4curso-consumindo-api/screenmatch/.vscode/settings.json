@@ -2,7 +2,6 @@
     "java.project.sourcePaths": ["src"],
     "java.project.outputPath": "bin",
     "java.project.referencedLibraries": [
-        "lib/**/*.jar",
-        "c:\\Users\\Breno\\Downloads\\gson-2.10.1.jar"
+        "lib/**/*.jar"
     ]
 }
