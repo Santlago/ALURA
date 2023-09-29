@@ -12,6 +12,7 @@ import com.google.gson.FieldNamingPolicy;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
+import exceptions.ErroDeConversaoDeAnoException;
 import models.Titulo;
 import models.TituloOmdb;
 
@@ -22,7 +23,7 @@ public class PrincpalComBusca {
         System.out.println("Digite um filme para busca: ");
         var busca = leitura.nextLine();
 
-        String endereco = "https://www.omdbapi.com/?t=" + busca + "&apikey=da68d1f1";
+        String endereco = "https://www.omdbapi.com/?t=" + busca.replace(" ", "+") + "&apikey=da68d1f1";
         try {
             HttpClient client = HttpClient.newHttpClient();
             HttpRequest request = HttpRequest.newBuilder()
@@ -31,7 +32,6 @@ public class PrincpalComBusca {
             HttpResponse<String> response = client
                     .send(request, BodyHandlers.ofString());
             String json = response.body();
-            System.out.println(json);
 
             Gson gson = new GsonBuilder().setFieldNamingPolicy(FieldNamingPolicy.UPPER_CAMEL_CASE).create();
             // Titulo meuTitulo = gson.fromJson(json, Titulo.class);
@@ -47,6 +47,8 @@ public class PrincpalComBusca {
             System.out.println(e.getMessage());
         } catch (IllegalArgumentException e) {
             System.out.println("Algu merro de argumento na busca, verifique o endereço");
+        } catch (ErroDeConversaoDeAnoException e) {
+            System.out.println(e.getMessage());
         }
 
         System.out.println("O programa finalizou corretamente!");
