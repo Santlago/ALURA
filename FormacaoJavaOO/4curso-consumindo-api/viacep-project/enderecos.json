@@ -1,0 +1,18 @@
+[
+  {
+    "cep": "08557-000",
+    "rua": "Avenida Vital Brasil",
+    "complemento": "até 898/899",
+    "bairro": "Vila Acoreana",
+    "cidade": "Poá",
+    "uf": "SP"
+  },
+  {
+    "cep": "08557-505",
+    "rua": "Avenida Vital Brasil",
+    "complemento": "de 900/901 ao fim",
+    "bairro": "Vila Monteiro",
+    "cidade": "Poá",
+    "uf": "SP"
+  }
+]
