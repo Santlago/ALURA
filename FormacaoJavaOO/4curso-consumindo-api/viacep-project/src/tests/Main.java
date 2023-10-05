@@ -1,21 +1,11 @@
 package tests;
 
-import java.io.FileWriter;
 import java.io.IOException;
-import java.net.URI;
-import java.net.http.HttpClient;
-import java.net.http.HttpRequest;
-import java.net.http.HttpResponse;
-import java.net.http.HttpResponse.BodyHandlers;
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Scanner;
-
-import com.google.gson.Gson;
-import com.google.gson.GsonBuilder;
 
 import models.ConsultaCep;
 import models.EnderecoViaCep;
+import models.GeradorDeArquivo;
 
 public class Main {
     
@@ -29,6 +19,8 @@ public class Main {
         try {
             EnderecoViaCep novoEndereco = consultaCep.buscaEndereco(cep);
             System.out.println(novoEndereco);
+            GeradorDeArquivo gerador = new GeradorDeArquivo();
+            gerador.salvaJson(novoEndereco);
         } catch (RuntimeException e) {
             // TODO: handle exception
             System.out.println(e.getMessage());

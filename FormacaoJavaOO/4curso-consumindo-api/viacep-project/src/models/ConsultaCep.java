@@ -8,15 +8,11 @@ import java.net.http.HttpResponse;
 import java.net.http.HttpResponse.BodyHandlers;
 
 import com.google.gson.Gson;
-import com.google.gson.GsonBuilder;
 
 public class ConsultaCep {
     
     // methods
     public EnderecoViaCep buscaEndereco(String cep) {
-        Gson gson = new GsonBuilder()
-            .setPrettyPrinting()
-            .create();
 
         URI endereco = URI.create("https://viacep.com.br/ws/" + cep.replace("-", "") + "/json/");
         
