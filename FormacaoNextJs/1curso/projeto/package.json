@@ -10,7 +10,8 @@
   },
   "scripts": {
     "dev": "next dev",
-    "buiçd": "next build",
+    "build": "next build",
+    "export": "next build && next export",
     "start": "next start",
     "lint": "next lint"
   }

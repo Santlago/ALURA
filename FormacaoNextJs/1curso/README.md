@@ -15,3 +15,6 @@ React por padrao é client side render e isso faz o site demorar para carregar n
 <p>
 Documentação Next.js: https://nextjs.org/
 </p>
+
+Diferença NPM e Yarn:<br>
+![diferenca](image-1.png)
