@@ -1,3 +1,5 @@
+import Title from '../src/components/Title'
+import Head from 'next/head'
 import Link from 'next/link'
 
 export async function getServerSideProps() {
@@ -19,6 +21,9 @@ export async function getServerSideProps() {
 export default function FAQPage({ faq }) {
     return(
         <div>
+            <Title>
+                FAQ - Alura Cases Campanha
+            </Title>
             <h1>Alura Cases - FAQ</h1>
             <Link href="/">
                 Ir para home
