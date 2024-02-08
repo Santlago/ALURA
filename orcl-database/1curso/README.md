@@ -30,15 +30,15 @@ DCL ( é o conjunto de comandos para controlar o banco de dados relacional):
 
 <h1>Tipos de campos</h1>
 
-![TIPOS TRATADOS](image-13.png)
-![CHAR](image-2.png)
-![VARCHAR e VARCHAR2](image-3.png)
-![NCHAR, NVARCHAR E NVARCHAR2](image-4.png)
-![CLOB E NLOB](image-5.png)
-![NUMBER](image-6.png)
-![NUMBER EXEMPLOS](image-7.png)
-![INTEGERS E DECIMALS](image-8.png)
-![DATE](image-9.png)
-![DATE: CURIOSIDADE](image-10.png)
-![TIMESTAMPS](image-11.png)
-![BINARIOS](image-12.png)
+![TIPOS TRATADOS](image-13.png)<br/>
+![CHAR](image-2.png)<br/>
+![VARCHAR e VARCHAR2](image-3.png)<br/>
+![NCHAR, NVARCHAR E NVARCHAR2](image-4.png)<br/>
+![CLOB E NLOB](image-5.png)<br/>
+![NUMBER](image-6.png)<br/>
+![NUMBER EXEMPLOS](image-7.png)<br/>
+![INTEGERS E DECIMALS](image-8.png)<br/>
+![DATE](image-9.png)<br/>
+![DATE: CURIOSIDADE](image-10.png)<br/>
+![TIMESTAMPS](image-11.png)<br/>
+![BINARIOS](image-12.png)<br/>
