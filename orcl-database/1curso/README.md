@@ -42,3 +42,4 @@ DCL ( é o conjunto de comandos para controlar o banco de dados relacional):
 ![DATE: CURIOSIDADE](image-10.png)<br/>
 ![TIMESTAMPS](image-11.png)<br/>
 ![BINARIOS](image-12.png)<br/>
+![MODELO RELACIONAL](image-14.png)
