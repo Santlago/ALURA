@@ -30,6 +30,7 @@ DCL ( é o conjunto de comandos para controlar o banco de dados relacional):
 
 <h1>Tipos de campos</h1>
 <p>Query é consulta, ie. "fazer a query da tabela de clientes de tal lugar"</p>
+<p>alias é um apelido, ie. SELECT PRODUTO AS "CODIGO DO PRODUTO"...</p>
 
 ![TIPOS TRATADOS](image-13.png)<br/>
 ![CHAR](image-2.png)<br/>
