@@ -11,3 +11,6 @@
         <li>Aspas duplas são para nome de alias compostos: <code>"NUMERO DE COMPRAS"</code></li>
     </ul>
 </p>
+
+![OPERADORES](image.png)
+![alt text](image-1.png)

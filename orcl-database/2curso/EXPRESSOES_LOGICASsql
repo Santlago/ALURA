@@ -1,0 +1,2 @@
+-- ((NOT(V AND F)) AND (V OR F)) OR F
+-- VERDADEIRO
