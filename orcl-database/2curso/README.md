@@ -13,4 +13,10 @@
 </p>
 
 ![OPERADORES](image.png)
-![alt text](image-1.png)
+![alt text](image-1.png)<br>
+### Select Distinct apenas mostra os valores que sao diferentes
+![DISTINCT](image-2.png)
+### Limitando a saíada da consulta
+![LIMITANDO](image-3.png)
+### Ordenando a saida
+![ORDENAR](image-4.png)
