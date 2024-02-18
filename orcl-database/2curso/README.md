@@ -20,3 +20,7 @@
 ![LIMITANDO](image-3.png)
 ### Ordenando a saida
 ![ORDENAR](image-4.png)
+### Agrupando linhas
+![AGRUPAR](image-5.png)
+![AGRUPAR2](image-6.png)
+![COUNT](image-7.png)
