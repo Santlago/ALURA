@@ -24,3 +24,5 @@
 ![AGRUPAR](image-5.png)
 ![AGRUPAR2](image-6.png)
 ![COUNT](image-7.png)
+### Having
+![HAVING](image-8.png)
